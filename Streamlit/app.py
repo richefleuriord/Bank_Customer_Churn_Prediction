@@ -1,5 +1,5 @@
 # ============================================================
-# Application Streamlit : Prédiction du Churn Client (Pipeline Random Forest)
+# Application Streamlit : Prédiction du Churn Client (Pipeline XGBoost)
 # ============================================================
 
 import streamlit as st
@@ -24,11 +24,11 @@ st.markdown("<h1 style='text-align: center; color: #2C3E50;'>🏦 Prédiction du
 st.markdown("<p style='text-align: center; color: #34495E;'>Remplissez les informations du client pour prédire la probabilité de départ.</p>", unsafe_allow_html=True)
 
 # ------------------------------------------------------------
-# Chargement du pipeline
+# Chargement du pipeline XGBoost
 # ------------------------------------------------------------
 try:
-    pipeline = joblib.load("Models/Best_Model_Deployment.pkl")
-    st.success("✅ Pipeline chargé avec succès !")
+    pipeline = joblib.load(r"C:\Users\HP\Course\phase_5\Models/Best_Model_Deployment.pkl")
+    st.success("✅ Pipeline XGBoost chargé avec succès !")
 except Exception as e:
     st.error(f"❌ Impossible de charger le pipeline : {e}")
 
@@ -116,4 +116,4 @@ if submitted:
 # ------------------------------------------------------------
 st.markdown("---")
 st.markdown("👨‍💻 **Réalisé par Riché Fleurinord et Micka Louis** — *Phase 5 : Projet Data Science & IA (Akademi)*")
-st.caption("© 2025 - Application développée avec Streamlit et Scikit-learn")
+st.caption("© 2025 - Application développée avec Streamlit et XGBoost")
