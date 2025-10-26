@@ -9,7 +9,7 @@
 
 # Prédiction du Churn Client Bancaire à l’aide du Machine Learning
 
-![Bannière aviation](../images/imag1.jpeg)
+![Bannière aviation](../images/imag1.jpg)
 
 ## 1. Vue d’ensemble du projet
 Ce projet de Data Science a pour objectif de prédire le **churn des clients bancaires**, c’est-à-dire identifier les clients susceptibles de quitter la banque.  
@@ -19,7 +19,7 @@ L’approche adoptée combine **préparation des données**, **modélisation pr�
 
 ## 2. Compréhension du problème métier
 
-![Bannière aviation](../images/imag2.jpeg)
+![Bannière aviation](../images/imag2.jpg)
 
 La fidélisation des clients est essentielle pour maintenir la rentabilité et la stabilité d’une institution bancaire.  
 Le churn peut entraîner des pertes financières significatives et affecter la réputation de la banque.  
@@ -39,7 +39,7 @@ Le jeu de données contient des informations sur les clients bancaires, incluant
 - Informations sur les produits détenus et l’activité bancaire.
 - Indicateurs de satisfaction et de fidélité.
 
-![Bannière aviation](../images/imag4.jpg)
+![Bannière aviation](../images/plot1.png)
 
 **Préparation des données :**
 
@@ -47,6 +47,7 @@ Le jeu de données contient des informations sur les clients bancaires, incluant
 - Nettoyage, normalisation et encodage.
 - Gestion du déséquilibre de classes via SMOTE et pondération selon le modèle.
 
+![Bannière aviation](../images/prep1.jpeg)
 ---
 
 ## 4. Profiling des clients
@@ -69,9 +70,10 @@ L’EDA a permis de visualiser et comprendre les relations entre les variables :
 - Analyse des variables clés : nombre de produits, activité, score de satisfaction.
 - Identification des patterns et insights exploitables pour la modélisation.
 
-![Bannière aviation](../images/plot1.png)
+![Bannière aviation](../images/plot5.jpeg)
 
-![Bannière aviation](../images/imag4.jpg)
+![Bannière aviation](../images/Gender&NumOfProduct.jpeg)
+
 ---
 
 ## 6. Modélisation
@@ -99,11 +101,14 @@ L’EDA a permis de visualiser et comprendre les relations entre les variables :
 | XGBoost              | 0.7996     | 72.7%            |
 | Neural Network (MLP) | 0.7622     | 79.3%            |
 
+
+![Bannière aviation](../images/plot8.jpeg)
+
 Le **XGBoost** a été sélectionné pour son compromis optimal entre **performance, robustesse et généralisation**.
 
 ---
 
-## 7. 📈 Évaluation
+## 7. Évaluation
 **Méthodologie :**
 
 - Évaluation sur validation et test.
@@ -115,6 +120,10 @@ Le **XGBoost** a été sélectionné pour son compromis optimal entre **performa
 - ROC-AUC sur test : 0.878
 - Accuracy sur test : 85.6%
 - Recall pour la classe minoritaire : 0.45
+
+![Bannière aviation](../images/plot10.jpeg)
+
+![Bannière aviation](../images/plot9.jpeg)
 
 Le modèle XGBoost démontre une **excellente capacité à prédire le churn** tout en maintenant un bon équilibre entre précision et couverture.
 
@@ -135,13 +144,19 @@ Le modèle XGBoost a été intégré dans une **application web interactive Stre
 
 **Exemple de prédiction :**
 
+![Bannière aviation](../images/plot13.jpeg)
+
+![Bannière aviation](../images/plot12.jpeg)
+
+![Bannière aviation](../images/plot11.jpeg)
+
 - Client jeune, France, 1 produit, score de satisfaction moyen : risque de départ 34.38%
 - Client âgé, Allemagne, 3 produits, score de satisfaction élevé : risque de départ 10.13%
 - Cliente moyenne, Espagne, 1 produit, score de satisfaction faible : risque de départ 53.53%
 
 ---
 
-## 9. 🧩 Explicabilité du modèle
+## 9. Explicabilité du modèle
 **Objectif :** comprendre comment le modèle prend ses décisions pour rendre les prédictions transparentes et actionnables.
 
 **Outils :**
@@ -151,6 +166,12 @@ Le modèle XGBoost a été intégré dans une **application web interactive Stre
 - **Feature Importance** : impact moyen des variables sur le modèle.
 
 **Insights clés :**
+
+![Bannière aviation](../images/explicabilite1.png)
+
+![Bannière aviation](../images/explicabilite2.png)
+
+![Bannière aviation](../images/explicabilite3.png)
 
 - AgeCategory, NumOfProductsBinary et IsActiveMember sont les facteurs les plus influents.
 - Les variables économiques (solde, salaire, BalanceToSalaryRatio) modèrent les prédictions.
