@@ -235,7 +235,8 @@ Grâce à son déploiement via Streamlit, la banque dispose désormais d’un ou
 │ ├── Evaluation_Report.pdf  
 │ ├── Demonstration_deploiement_Streamlit.pdf  
 │ ├── Demonstration_deploiement_Streamlit2.pdf  
-│ ├── Demonstration_deploiement_Streamlit3.pdf  
+│ ├── Demonstration_deploiement_Streamlit3.pdf    
+│ ├── presentation_finale_capstone_project.pdf  
 │  
 ├── **📁 Streamlit/** — Code de l’application web Streamlit  
 │ ├── app.py  
