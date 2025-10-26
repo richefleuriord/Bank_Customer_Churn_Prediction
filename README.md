@@ -204,54 +204,53 @@ Grâce à son déploiement via Streamlit, la banque dispose désormais d’un ou
 - **Analyse continue de l’explicabilité** pour renforcer la confiance des équipes.
 
 ---
-
-Bank_Customer_Churn_Prediction/
-Bank_Customer_Churn_Prediction/
+ 
+Bank_Customer_Churn_Prediction/  
 │
-├── 📁 Data/ # Contient les données brutes et transformées
-│ ├── Customer-Churn-Records.csv # Jeu de données brut initial
-│ ├── X_train_prepared # Variables explicatives du jeu d'entraînement
-│ ├── X_val_prepared # Variables explicatives du jeu de validation
-│ ├── X_test_prepared # Variables explicatives du jeu de test
-│ ├── y_train_prepared # Variable cible (churn ou non) du jeu d'entraînement
-│ ├── y_val_prepared # Variable cible du jeu de validation
-│ ├── y_test_prepared # Variable cible du jeu de test
+├── 📁 Data/ # Contient les données brutes et transformées  
+│ ├── Customer-Churn-Records.csv # Jeu de données brut initial  
+│ ├── X_train_prepared # Variables explicatives du jeu d'entraînement  
+│ ├── X_val_prepared # Variables explicatives du jeu de validation  
+│ ├── X_test_prepared # Variables explicatives du jeu de test  
+│ ├── y_train_prepared # Variable cible (churn ou non) du jeu d'entraînement  
+│ ├── y_val_prepared # Variable cible du jeu de validation  
+│ ├── y_test_prepared # Variable cible du jeu de test  
 │
-├── 📁 les_Notebooks_du_Projet/ # Tous les notebooks Jupyter (profiling, EDA, modélisation, etc.)
-│ ├── 01_Profiling_des_clients.ipynb
-│ ├── 02_EDA.ipynb
-│ ├── 03_Modelisation.ipynb
-│ ├── 04_Evaluation.ipynb
-│ ├── 05_Explicabilite.ipynb
-│ ├── 06_Deploiement.ipynb
+├── 📁 les_Notebooks_du_Projet/ # Tous les notebooks Jupyter (profiling, EDA, modélisation, etc.)  
+│ ├── 01_Profiling_des_clients.ipynb  
+│ ├── 02_EDA.ipynb  
+│ ├── 03_Modelisation.ipynb  
+│ ├── 04_Evaluation.ipynb  
+│ ├── 05_Explicabilite.ipynb  
+│ ├── 06_Deploiement.ipynb   
 │
-├── 📁 Models/ # Sauvegarde des modèles entraînés (.pkl, .joblib)
-│ ├── Best_Model_Deployment.pkl
-│ ├── columns_final.pkl
+├── 📁 Models/ # Sauvegarde des modèles entraînés (.pkl, .joblib)  
+│ ├── Best_Model_Deployment.pkl  
+│ ├── columns_final.pkl  
 │
-├── 📁 Outputs/ # Rapports, figures et notebooks exportés en PDF
-│ ├── EDA_Complet.pdf
-│ ├── Evaluation_Report.pdf
-│ ├── Demonstration_deploiement_Streamlit.pdf
-│ ├── Demonstration_deploiement_Streamlit2.pdf
-│ ├── Demonstration_deploiement_Streamlit3.pdf
+├── 📁 Outputs/ # Rapports, figures et notebooks exportés en PDF  
+│ ├── EDA_Complet.pdf  
+│ ├── Evaluation_Report.pdf  
+│ ├── Demonstration_deploiement_Streamlit.pdf  
+│ ├── Demonstration_deploiement_Streamlit2.pdf  
+│ ├── Demonstration_deploiement_Streamlit3.pdf  
 │
-├── 📁 Streamlit/ # Code de l’application web Streamlit
-│ ├── app.py
-│ ├── config.json
+├── 📁 Streamlit/ # Code de l’application web Streamlit  
+│ ├── app.py  
+│ ├── config.json  
 │
-├── 📁 images/ # Graphiques, visuels et bannières pour le README
-│ ├── plot.png
-│ ├── Autres plots
+├── 📁 images/ # Graphiques, visuels et bannières pour le README  
+│ ├── plot.png   
+│ ├── Autres plots   
 │
-├── 📁 anaconda_projects/db/ # Environnement Anaconda / base locale
+├── 📁 anaconda_projects/db/ # Environnement Anaconda / base locale  
 │
-├── 📜 Mini_Document_de_Cadrage.pdf # Note de cadrage du projet
-├── 📜 Proposition_de_Projet_Capstone.pdf
-├── 📜 LICENSE # Type de licence (MIT)
-├── 📜 README.md # Documentation principale du projet
-└── 📜 requirements.txt # Liste des dépendances Python à installer
+├── 📜 Mini_Document_de_Cadrage.pdf # Note de cadrage du projet   
+├── 📜 Proposition_de_Projet_Capstone.pdf  
+├── 📜 LICENSE # Type de licence (MIT)   
+├── 📜 README.md # Documentation principale du projet  
+└── 📜 requirements.txt # Liste des dépendances Python à installer  
 ---
 
-*Analyse réalisée par Riché Fleurinord et Micka Louis — Phase 5 : Projet Data Science & IA (Akademi)*  
-© 2025 — Prédiction du Churn Client avec XGBoost
+*Analyse réalisée par Riché Fleurinord et Micka Louis — Phase 5 : Projet Data Science & IA (Akademi)*    
+© 2025 — Prédiction du Churn Client avec XGBoost   
