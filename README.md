@@ -9,7 +9,7 @@
 
 # Prédiction du Churn Client Bancaire à l’aide du Machine Learning
 
-![Bannière aviation](../images/imag1.jpg)
+![Bannière aviation](images/imag1.jpg)
 
 ## 1. Vue d’ensemble du projet
 Ce projet de Data Science a pour objectif de prédire le **churn des clients bancaires**, c’est-à-dire identifier les clients susceptibles de quitter la banque.  
