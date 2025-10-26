@@ -9,7 +9,7 @@
 
 # Prédiction du Churn Client Bancaire à l’aide du Machine Learning
 
-![Bannière aviation](images/imag1.jpg)
+![Bannière aviation](images/imag1.jpeg)
 
 ## 1. Vue d’ensemble du projet
 Ce projet de Data Science a pour objectif de prédire le **churn des clients bancaires**, c’est-à-dire identifier les clients susceptibles de quitter la banque.  
@@ -19,7 +19,7 @@ L’approche adoptée combine **préparation des données**, **modélisation pr�
 
 ## 2. Compréhension du problème métier
 
-![Bannière aviation](../images/imag2.jpg)
+![Bannière aviation](images/imag2.jpeg)
 
 La fidélisation des clients est essentielle pour maintenir la rentabilité et la stabilité d’une institution bancaire.  
 Le churn peut entraîner des pertes financières significatives et affecter la réputation de la banque.  
@@ -39,7 +39,7 @@ Le jeu de données contient des informations sur les clients bancaires, incluant
 - Informations sur les produits détenus et l’activité bancaire.
 - Indicateurs de satisfaction et de fidélité.
 
-![Bannière aviation](../images/plot1.png)
+![Bannière aviation](images/plot1.png)
 
 **Préparation des données :**
 
