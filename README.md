@@ -208,13 +208,13 @@ Grâce à son déploiement via Streamlit, la banque dispose désormais d’un ou
 Bank_Customer_Churn_Prediction/  
 │
 ├── 📁 Data/ # Contient les données brutes et transformées  
-│ ├── Customer-Churn-Records.csv # Jeu de données brut initial  
-│ ├── X_train_prepared # Variables explicatives du jeu d'entraînement  
-│ ├── X_val_prepared # Variables explicatives du jeu de validation  
-│ ├── X_test_prepared # Variables explicatives du jeu de test  
-│ ├── y_train_prepared # Variable cible (churn ou non) du jeu d'entraînement  
-│ ├── y_val_prepared # Variable cible du jeu de validation  
-│ ├── y_test_prepared # Variable cible du jeu de test  
+│ ├── Customer-Churn-Records.csv   
+│ ├── X_train_prepared   
+│ ├── X_val_prepared   
+│ ├── X_test_prepared   
+│ ├── y_train_prepared 
+│ ├── y_val_prepared   
+│ ├── y_test_prepared   
 │
 ├── 📁 les_Notebooks_du_Projet/ # Tous les notebooks Jupyter (profiling, EDA, modélisation, etc.)  
 │ ├── 01_Profiling_des_clients.ipynb  
@@ -245,11 +245,11 @@ Bank_Customer_Churn_Prediction/
 │
 ├── 📁 anaconda_projects/db/ # Environnement Anaconda / base locale  
 │
-├── 📜 Mini_Document_de_Cadrage.pdf # Note de cadrage du projet   
+├── 📜 Mini_Document_de_Cadrage.pdf   
 ├── 📜 Proposition_de_Projet_Capstone.pdf  
-├── 📜 LICENSE # Type de licence (MIT)   
-├── 📜 README.md # Documentation principale du projet  
-└── 📜 requirements.txt # Liste des dépendances Python à installer  
+├── 📜 LICENSE  
+├── 📜 README.md  
+└── 📜 requirements.txt  
 ---
 
 *Analyse réalisée par Riché Fleurinord et Micka Louis — Phase 5 : Projet Data Science & IA (Akademi)*    
