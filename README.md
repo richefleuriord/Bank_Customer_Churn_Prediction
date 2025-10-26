@@ -47,7 +47,8 @@ Le jeu de données contient des informations sur les clients bancaires, incluant
 - Nettoyage, normalisation et encodage.
 - Gestion du déséquilibre de classes via SMOTE et pondération selon le modèle.
 
-![Bannière aviation](../images/prep1.jpeg)
+![Bannière aviation](images/prep1.jpeg)
+
 ---
 
 ## 4. Profiling des clients
@@ -70,9 +71,9 @@ L’EDA a permis de visualiser et comprendre les relations entre les variables :
 - Analyse des variables clés : nombre de produits, activité, score de satisfaction.
 - Identification des patterns et insights exploitables pour la modélisation.
 
-![Bannière aviation](../images/plot5.jpeg)
+![Bannière aviation](images/plot5.jpeg)
 
-![Bannière aviation](../images/Gender&NumOfProduct.jpeg)
+![Bannière aviation](images/Gender&NumOfProduct.jpeg)
 
 ---
 
@@ -102,7 +103,7 @@ L’EDA a permis de visualiser et comprendre les relations entre les variables :
 | Neural Network (MLP) | 0.7622     | 79.3%            |
 
 
-![Bannière aviation](../images/plot8.jpeg)
+![Bannière aviation](images/plot8.jpeg)
 
 Le **XGBoost** a été sélectionné pour son compromis optimal entre **performance, robustesse et généralisation**.
 
@@ -121,9 +122,9 @@ Le **XGBoost** a été sélectionné pour son compromis optimal entre **performa
 - Accuracy sur test : 85.6%
 - Recall pour la classe minoritaire : 0.45
 
-![Bannière aviation](../images/plot10.jpeg)
+![Bannière aviation](images/plot10.jpeg)
 
-![Bannière aviation](../images/plot9.jpeg)
+![Bannière aviation](images/plot9.jpeg)
 
 Le modèle XGBoost démontre une **excellente capacité à prédire le churn** tout en maintenant un bon équilibre entre précision et couverture.
 
@@ -144,11 +145,11 @@ Le modèle XGBoost a été intégré dans une **application web interactive Stre
 
 **Exemple de prédiction :**
 
-![Bannière aviation](../images/plot13.jpeg)
+![Bannière aviation](/plot13.jpeg)
 
-![Bannière aviation](../images/plot12.jpeg)
+![Bannière aviation](images/plot12.jpeg)
 
-![Bannière aviation](../images/plot11.jpeg)
+![Bannière aviation](images/plot11.jpeg)
 
 - Client jeune, France, 1 produit, score de satisfaction moyen : risque de départ 34.38%
 - Client âgé, Allemagne, 3 produits, score de satisfaction élevé : risque de départ 10.13%
@@ -167,11 +168,11 @@ Le modèle XGBoost a été intégré dans une **application web interactive Stre
 
 **Insights clés :**
 
-![Bannière aviation](../images/explicabilite1.png)
+![Bannière aviation](images/explicabilite1.png)
 
-![Bannière aviation](../images/explicabilite2.png)
+![Bannière aviation](images/explicabilite2.png)
 
-![Bannière aviation](../images/explicabilite3.png)
+![Bannière aviation](images/explicabilite3.png)
 
 - AgeCategory, NumOfProductsBinary et IsActiveMember sont les facteurs les plus influents.
 - Les variables économiques (solde, salaire, BalanceToSalaryRatio) modèrent les prédictions.
