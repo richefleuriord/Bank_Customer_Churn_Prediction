@@ -145,7 +145,7 @@ Le modèle XGBoost a été intégré dans une **application web interactive Stre
 
 **Exemple de prédiction :**
 
-![Bannière aviation](/plot13.jpeg)
+![Bannière aviation](images/plot13.jpeg)
 
 ![Bannière aviation](images/plot12.jpeg)
 
